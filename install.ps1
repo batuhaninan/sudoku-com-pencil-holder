@@ -3,7 +3,7 @@
 
 $ErrorActionPreference = "Stop"
 
-$RepoUrl = "https://github.com/YOUR_USER/sudoku.git"
+$RepoUrl = "https://github.com/batuhaninan/sudoku.git"
 $InstallRoot = Join-Path $env:LOCALAPPDATA "sudoku-shift-pencil"
 $ExtensionPath = Join-Path $InstallRoot "chrome-extension"
 $ScriptDir = Split-Path -Parent $MyInvocation.MyCommand.Path

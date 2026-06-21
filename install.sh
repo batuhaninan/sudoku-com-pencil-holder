@@ -4,7 +4,7 @@
 
 set -euo pipefail
 
-REPO_URL="https://github.com/YOUR_USER/sudoku.git"
+REPO_URL="https://github.com/batuhaninan/sudoku.git"
 INSTALL_ROOT="${XDG_DATA_HOME:-$HOME/.local/share}/sudoku-shift-pencil"
 EXTENSION_PATH="$INSTALL_ROOT/chrome-extension"
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"

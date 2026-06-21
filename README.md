@@ -9,7 +9,7 @@ Works by toggling sudoku.com's built-in Notes button while Shift is held (`#sudo
 From PowerShell:
 
 ```powershell
-irm https://raw.githubusercontent.com/YOUR_USER/sudoku/main/install.ps1 | iex
+irm https://raw.githubusercontent.com/batuhaninan/sudoku/main/install.ps1 | iex
 ```
 
 Installs to `%LOCALAPPDATA%\sudoku-shift-pencil\chrome-extension`.
@@ -19,14 +19,14 @@ Run the same command again anytime to update.
 ## One-command install (Linux / macOS)
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/YOUR_USER/sudoku/main/install.sh | bash
+curl -fsSL https://raw.githubusercontent.com/batuhaninan/sudoku/main/install.sh | bash
 ```
 
 Installs to `~/.local/share/sudoku-shift-pencil/chrome-extension` (or `$XDG_DATA_HOME/sudoku-shift-pencil` if set).
 
 Run the same command again anytime to update.
 
-> Replace `YOUR_USER/sudoku` with your GitHub repo path after you push this project. The install scripts also work locally without GitHub (see below).
+> The install scripts also work locally without GitHub (see below).
 
 ## Chrome setup (first time only)
 
@@ -77,9 +77,8 @@ install.sh        # Linux/macOS installer / updater
 
 ## Publishing to GitHub
 
-1. Create a repo and push this project
-2. Replace `YOUR_USER/sudoku` in this README and in `install.ps1` / `install.sh` (`RepoUrl` / `REPO_URL`)
-3. Use the one-command install lines above
+1. Create [github.com/batuhaninan/sudoku](https://github.com/batuhaninan/sudoku) and push this project
+2. The one-command install lines above will work from `main`
 
 ## Credits
 
