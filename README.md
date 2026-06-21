@@ -9,7 +9,7 @@ Works by toggling sudoku.com's built-in Notes button while Shift is held (`#sudo
 From PowerShell:
 
 ```powershell
-irm https://raw.githubusercontent.com/batuhaninan/sudoku/main/install.ps1 | iex
+irm https://raw.githubusercontent.com/batuhaninan/sudoku-com-pencil-holder/main/install.ps1 | iex
 ```
 
 Installs to `%LOCALAPPDATA%\sudoku-shift-pencil\chrome-extension`.
@@ -19,7 +19,7 @@ Run the same command again anytime to update.
 ## One-command install (Linux / macOS)
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/batuhaninan/sudoku/main/install.sh | bash
+curl -fsSL https://raw.githubusercontent.com/batuhaninan/sudoku-com-pencil-holder/main/install.sh | bash
 ```
 
 Installs to `~/.local/share/sudoku-shift-pencil/chrome-extension` (or `$XDG_DATA_HOME/sudoku-shift-pencil` if set).
@@ -77,7 +77,7 @@ install.sh        # Linux/macOS installer / updater
 
 ## Publishing to GitHub
 
-1. Create [github.com/batuhaninan/sudoku](https://github.com/batuhaninan/sudoku) and push this project
+1. Create [github.com/batuhaninan/sudoku-com-pencil-holder](https://github.com/batuhaninan/sudoku-com-pencil-holder) and push this project
 2. The one-command install lines above will work from `main`
 
 ## Credits
